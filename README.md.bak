@@ -71,7 +71,7 @@ New case studies are added simply by creating a new top-level folder (following 
 - set up paths in `run.bat` and in the modified scripts (see settings.R in the PL case study, where engine_root points to ../../../SWAT-Workflow-R/_Workflow/1_Setup), so the case study uses the shared, isolated R/RStudio installation with no local installs needed,
 - launch RStudio and open `setup_workflow.R`, which runs the full model setup workflow (SWATbuildR, weather/atmospheric deposition, SWATfarmR management input, calibration file handling, etc.).
 
-Results and intermediate outputs are written back into the case study's own folder (`Temp` and subfolders), keeping the shared engine untouched.
+Results and intermediate outputs are written back into the case study's own folder (`Temp_` and subfolders), keeping the shared engine untouched.
 
 ## Adding a new case study
 
